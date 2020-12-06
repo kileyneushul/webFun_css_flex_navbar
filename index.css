@@ -1,0 +1,51 @@
+
+.center-box {
+    display:flex;
+    background: navy;
+    height: 350px;
+    width: 1500px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.center-item{
+    background: beige;
+    height:100px;
+    width:100px;
+    align-content: center;
+    
+}
+
+.navbar{
+    display: flex; /*Makes the parent element into a flex element*/
+    background: cornflowerblue;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+    width: 1500px;
+    color: white;
+    align-items: center;/*controls the alignment of items on the Cross Axis. In grid layout, it controls the aignment of items on the Block Axis within their grid area*/
+    flex-direction: row; /*establishes the main axis, thus defining the direction flex items are placed in the flex container. Main axis is primary axis along which flex items are laid out*/
+    flex-wrap: wrap; /*sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked*/
+    justify-content: space-between; /*Defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container*/
+    margin-top: 20px;
+    font-weight: 600; /*Determines Boldness of Font*/
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}
+
+
+li {
+    list-style: none; /*Takes the bullet-points out of the unordered list -- Can I do this for the ul element?*/
+    display: inline-block; /*arranges the block elements on the same line within the flex container .navbar*/
+    text-align: center;/*Aligns inner content of a block element*/
+    margin-right: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none; /*Removes the underline from the <a> link tags*/
+}
